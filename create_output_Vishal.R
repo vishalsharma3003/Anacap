@@ -1,4 +1,7 @@
+install.packages("./Anacap.Test_0.1.0.tar.gz")
+library(Anacap.Test)
 library(readxl)
+
 input <-
   read_xlsx(
     "./Q1a - Input.xlsx",
